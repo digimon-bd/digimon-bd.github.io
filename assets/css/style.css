@@ -54,11 +54,14 @@ select {
     align-items: center;
     justify-content: center;
     margin: auto;
+    width: 290px;
+    height: 290px;
+    border-radius: 5px;
 }
 #digi-info {
     margin: 0 auto 20px auto;
     width: 80%;
-    max-width: 400px;
+    max-width: 350px;
     height: auto;
     text-align: center;
 }
@@ -72,7 +75,7 @@ select {
     display: flex;
     flex-direction: row;
     margin: 0 auto 0 auto;
-    width: 400px;
+    width: auto;
     height: 50px;
     text-align: center;
     align-items: center;
@@ -99,18 +102,18 @@ footer {
      color: white;
      display: flex;
      align-items: center;
+     justify-content: space-between;
  }
-.digi-footer img {
-    max-width: 70px;
-    margin: 0 50px 0 auto;
-    padding: 0 5px 0 5px;
- }
- .digi-footer  svg{
-    justify-content: end;
-    max-width: 50px;
-    margin: 0 4px 0 20px;
-    padding: 0 5px 0 0;
- }
+#gatomon {
+    max-width: 80px;
+    margin-left: 20px;
+}
+.rrss {
+    display: flex;
+    width: 100px;
+    justify-content: space-between;
+    margin-right: 20px;
+}
 
 
  @media (min-width:786px ) {
