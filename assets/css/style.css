@@ -1,0 +1,146 @@
+* {
+    /* font-family: 'Press Start 2P', cursive; */
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #E6F4F1;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navbar {
+    width: 100vw;
+    background-color: #E19E20;
+}
+#logo {
+    max-width: 50px;
+}
+#main {
+    margin-top: auto;
+    margin-left: 0;
+    margin-right: 0;
+}
+h1 {
+    margin: 30px;
+    color: black;
+    text-align: center;
+}
+#brand{
+    display: flex;
+    margin-bottom: 50px;
+    
+}
+#brand img{
+    max-width: 350px;
+    margin: 0 auto 0 auto;
+}
+/* search box */
+select {
+    margin: 20px auto 30px auto;
+    max-width: 90%;
+    margin-bottom: 10px;
+}
+#digibtn, #digibtnrandom {
+    margin: 20px auto 30px auto;
+    max-width: 75%;
+    width: 150px;
+    margin-bottom: 10px;
+    background-color: #2675AE;
+}
+/* card */
+#digimg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+#digi-info {
+    margin: 0 auto 20px auto;
+    width: 80%;
+    max-width: 400px;
+    height: auto;
+    text-align: center;
+}
+#digi-info-card {
+    display: none;
+    flex-direction: column;
+    margin: 0 0 30px 0;
+    align-items: center;
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 0 auto;
+    width: 400px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+} 
+#diginamelvl {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+#diginame, #digilevel {
+    
+    width: 350px;
+    padding: 10px;
+}
+/* footer */
+footer {
+    margin-top: auto;
+     background-color: #E19E20;
+     height: 100px;
+     color: white;
+     display: flex;
+     align-items: center;
+ }
+.digi-footer img {
+    max-width: 70px;
+    margin: 0 50px 0 auto;
+    padding: 0 5px 0 5px;
+ }
+ .digi-footer  svg{
+    justify-content: end;
+    max-width: 50px;
+    margin: 0 4px 0 20px;
+    padding: 0 5px 0 0;
+ }
+
+
+ @media (min-width:786px ) {
+    #searchbox, #buttonbox, #searchboxmain {
+        display: inline-block;
+    }
+    #digilist{
+        max-width: 800px;
+    }
+    #buttonbox{
+        text-align: center; 
+    }
+    #digibtn {
+        margin-right: 30px;
+    } 
+    #digibtnrandom {
+        margin-left: 50px;
+    } 
+    #digi-info-card{
+        flex-direction: row ;
+        margin-top: 30px;
+    }
+    #diginamelvl{
+        display: block;
+        margin-top: 40px;
+        text-align: center;
+    }
+    #diginame, #digilevel {
+        display: inline-block;
+        padding: 10px;
+        margin: auto 0 auto o;
+    }
+ }
